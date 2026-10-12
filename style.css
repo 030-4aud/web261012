@@ -47,4 +47,7 @@
      padding: 4px 10px;
      border-radius: 999px;
      font-weight: bold;
+     animation: pulse 2s infinite;
  }
+
+  @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.15); } }
